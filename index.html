@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../quizapp/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <title>JS Quiz</title>
 </head>
 <body>
     <div class="header">
-        <ul>
-            <li id="#highscore">
-                View Highscore
-            </li>
-            <li id="timer">
-                Timer:
-            </li>
-        </ul>
+        <a href="./highscore.html" class="button-48 highscore">View Highscore</a>
+            <div class="timer" id="timer">
+                Time:
+            </div>
     </div>
-    <div class="challenge">
+    <div class="mx-auto" style="width: 500px;">
         <h2>Coding Quiz Challenge</h2>
         <div class="start-quiz">
             <p>Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
         </div>
-        <!--start-quiz-btn -->
-        <button class="start-quiz-btn">Start Quiz Now!</button>
+        <div class="buttons">
+            <!--start-quiz-btn -->
+            <a href="./quizgame.html" class="button-61">Start Quiz!</a>
+            <a href="https://www.google.com" class="button-61">Quit Quiz!</a>
+        </div> 
+        
+        
     </div>
-    <div class="quit-btn">
-        <button class="quit">Quit Quiz</button>
-    </div>    
+  
 
 </body>
 </html>
