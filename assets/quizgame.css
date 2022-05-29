@@ -1,0 +1,28 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 12px;
+    width: fit-content;
+    border-radius: 4px;
+    background: #6200ee;
+    font-size: 32px;
+    min-width: 1000px;
+}
+.container h1 {
+    font-size: 36px;
+}
+.choice-container:hover {
+    color: #fff;
+}
+.choice-prefex {
+    padding: 16px;
+}
+.choice-text {
+    padding: 16px;
+    width: 100%;
+}
+.correct {
+    background: greenyellow;
+}
+.incorrect {
+    background: red;
+}
